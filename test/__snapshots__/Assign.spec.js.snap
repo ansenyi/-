@@ -1,0 +1,1035 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assign dept manage init 1`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有部门
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      未分配人员
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assign role assign left click p show 1`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+          <li
+            data-id="2"
+            data-index="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              b2
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      人员列表
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        >
+          <div
+            class="chosen-option"
+          >
+            
+            a
+            
+            <i
+              class="chosen-cancel icon-cancel"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+          <li
+            data-id="1"
+            data-name="a"
+          >
+            <input
+              id="1"
+              type="checkbox"
+            />
+             
+            <label
+              for="1"
+            >
+              a1
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assign role assign mock created 1`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      人员列表
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assign role assign mock created 2`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      人员列表
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assign role assign to unassigned 1`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            >
+              <li
+                data-id="11"
+                data-name="aa"
+              >
+                <input
+                  id="12"
+                  type="checkbox"
+                />
+                 
+                <label
+                  for="12"
+                >
+                  aa11
+                </label>
+              </li>
+            </ul>
+          </li>
+          <li
+            data-id="2"
+            data-index="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              b2
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      人员列表
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        >
+          <div
+            class="chosen-option"
+          >
+            
+            a
+            
+            <i
+              class="chosen-cancel icon-cancel"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+          <li
+            data-id="1"
+            data-name="a"
+          >
+            <input
+              id="1"
+              type="checkbox"
+            />
+             
+            <label
+              for="1"
+            >
+              a1
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assign role right assign init 1`] = `
+<div
+  class="assign center"
+>
+  <div
+    class="one-column left-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a1
+            
+            </p>
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-right"
+      />
+    </button>
+     
+    <button
+      class="button"
+    >
+      <i
+        class="icon-to-left"
+      />
+    </button>
+  </div>
+   
+  <div
+    class="one-column right-column"
+  >
+    <h4
+      class="box-title"
+    >
+      设备列表
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="search-input"
+      >
+        <input
+          autocomplete="off"
+          placeholder="模糊搜索"
+          type="text"
+        />
+         
+        <i
+          class="input-cancel icon-cancel"
+          style="display: none;"
+        />
+      </div>
+       
+      <div
+        class="little-bar"
+      >
+        <div
+          class="chosen-options"
+        />
+      </div>
+       
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="2"
+            data-name="b"
+          >
+            <input
+              id="2"
+              type="checkbox"
+            />
+             
+            <label
+              for="2"
+            >
+              b2
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

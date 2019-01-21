@@ -1,0 +1,74 @@
+.inputfile {
+  width: 0.1px !important;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  width: 198px;
+  /*text-overflow: ellipsis;*/
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
+  cursor: pointer;
+  display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  fill: #fff;
+  margin-top: -5px;
+  margin-right: -2px;
+}
+
+.inputfile-6 + label {
+  border: 1px solid #888;
+  background-color: #fff;
+  padding: 0;
+}
+
+.inputfile-6:focus + label,
+.inputfile-6.has-focus + label,
+.inputfile-6 + label:hover {
+  border-color: #999;
+}
+
+.inputfile-6 + label span {
+  display: inline-block;
+  width: 156px;
+  height: 30px;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.inputfile-6 + label i {
+  width: 38px;
+  height:30px;
+  background-color: #646464;
+  display: inline-block;
+}
+
+.inputfile-6:focus + label i,
+.inputfile-6.has-focus + label i,
+.inputfile-6 + label:hover i {
+  background-color: #777;
+}
+
+@media screen and (max-width: 500px) {
+  .inputfile-6 + label i {
+    display: block;
+  }
+}

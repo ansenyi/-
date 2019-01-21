@@ -1,0 +1,264 @@
+confirm-container($titleWidth, $titleHeight, $contentHeight, $confirmWidth, $confirmHeight)
+  triWidth = round(titleHeight / 4)
+  triHeight = round(titleHeight / 7)
+  contentWidth = titleWidth - triWidth * 2
+  .confirm-title
+    position relative
+    z-index 1
+    width titleWidth
+    height titleHeight
+    margin 0
+    font-size 16px
+    font-weight normal
+    color #ccc
+    line-height titleHeight
+    text-align center
+    background #0077D5
+    box-shadow 0 5px 15px -5px rgba(0, 0, 0, 0.7)
+    &:after
+      content ''
+      position absolute
+      top titleHeight
+      left 0
+      width 0
+      height 0
+      border-width triHeight triWidth
+      border-style solid
+      border-color #444 #444 transparent transparent
+  .confirm-content
+    margin-left triWidth * 2
+    width contentWidth
+    height contentHeight
+    background #333538
+    word-break break-all
+  .confirm-button
+    margin-left 65px
+    width confirmWidth
+    height confirmHeight
+    border none
+    outline none
+    width 60px
+    height 40px
+    text-align center
+    cursor pointer
+    font-size 16px
+    color #fff
+    background #0077d5
+    border-radius 5px
+    box-shadow 0 2px 6px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 4px 2px -2px rgba(0,0,0,0.12)
+
+grey-black($boxWidth)
+  width boxWidth
+  text-align center
+  color #eee
+  background #333538
+  box-shadow 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12)
+  .box-title
+    margin 0
+    height 40px
+    font-size 18px
+    font-weight normal
+    line-height 40px
+    background #0077d5
+    box-shadow 0 5px 5px -5px rgba(0, 0, 0, 0.5)
+
+
+form-container($formWidth)
+  width formWidth
+  text-align center
+  color #eee
+  background #333538
+  box-shadow 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12)
+  .form-title
+    margin 0
+    height 40px
+    font-size 18px
+    font-weight normal
+    line-height 40px
+    background #0077d5
+    box-shadow 0 5px 5px -5px rgba(0, 0, 0, 0.5)
+  >label, .label-wrapper>.label-container>label
+    display flex
+    margin-top 10px
+    justify-content space-between
+    align-items baseline
+    &:first-of-type
+      margin-top 26px
+    input, select
+      width 200px
+      box-sizing border-box
+      margin-top 6px
+    input
+      text-align right
+    &:last-child
+      margin-bottom 60px
+
+console-container($consoleWidth)
+  width consoleWidth
+  margin 35px auto
+  overflow-x hidden
+  color #eee
+  box-shadow 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12)
+  .console-title
+    margin 0
+    height 40px
+    text-align center
+    font-size 18px
+    font-weight normal
+    line-height 40px
+    background #333538
+    box-shadow 0 5px 5px -5px rgba(0, 0, 0, 0.5)
+  .console-content
+    width consoleWidth + 20px
+    max-height 110px
+    min-height 50px
+    background #646464
+    overflow-y auto
+    overflow-x hidden
+    p
+      display flex
+      justify-content space-between
+      align-items center
+      span:first-child
+        text-align left
+        white-space pre-wrap
+        padding-left 40px
+        padding-right 10px
+      span:last-child
+        padding-right 50px
+      span
+        line-height 20px
+      .succeed
+        color #55bb73
+      .failed
+        color #d84c4c
+
+boxWidth = 240px
+three-columns()
+ .chosen
+  border 0.95px solid #2dc5fa !important
+ .one-column
+   grey-black(boxWidth)
+   display inline-block
+   height 400px
+   vertical-align top
+   .box-content
+     display flex
+     flex-direction column
+     width boxWidth - 40px
+     height 320px
+     margin 20px
+     box-sizing border-box
+     .search-input
+       search-input()
+       .input-cancel
+         right 3px
+     .chosen-options
+       chosen-options()
+     input[type=text]
+       width 96%
+       box-sizing border-box
+     .little-bar
+       flex 1 0 auto
+       max-height 88px
+       margin 5px -7px 0 0
+     .my-bar
+       flex 0 1 280px
+       margin-right -7px
+       margin-top 8px
+       ul
+         margin 0
+         list-style none
+       >ul
+         padding 0
+         text-align left
+         li
+           padding 2px 0
+           p
+             width 200px
+             margin 0
+             padding 2px 3px
+             box-sizing border-box
+             cursor default
+           >p
+            border 0.95px solid transparent
+           ul li
+             margin-left -14px
+             p
+              width 174px
+ .buttons
+   display inline-block
+   margin 120px 50px auto 50px
+   .button
+     display block
+     margin-bottom 50px
+     i
+       font-size 24px
+
+select-label()
+  position relative
+  z-index 2
+  &:before
+    content ''
+    display block
+    position absolute
+    top 6px
+    right 3px
+    width 199px
+    height 22px
+    background #fff
+    z-index -2
+  select
+    height 22px
+    padding-right 23px
+    padding-left 2px
+    border 1px solid transparent
+    line-height 22px
+    background transparent
+  .select-down
+    position absolute
+    top 7px
+    right 6px
+    color #333538
+    font-size 18px
+    z-index -1
+
+chosen-options()
+  width 205px
+  text-align left
+  font-size 14px
+  line-height 16px
+  white-space normal
+  .chosen-option
+    position relative
+    display inline-block
+    margin 4px 6px 2px 0
+    padding 2px 5px 3px 3px
+    background rgba(#777, .5)
+    border 1px solid rgba(#777, 0.2)
+    border-radius 2px
+    &:first-of-type
+      margin-left 0
+    .chosen-cancel
+      position absolute
+      top -4px
+      right -5px
+      font-size 11px
+      color #888
+      cursor pointer
+      &:hover
+        color #aaa
+
+search-input()
+  position relative
+  input[type=text]
+    width 100%
+  .input-cancel
+    position absolute
+    line-height 55px
+    text-align center
+    color #ccc
+    cursor pointer
+    &:hover
+      color #888
+

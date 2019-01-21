@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page alertMsgShow 1`] = `
+<div>
+  <div
+    class="clearfix"
+  >
+    <!---->
+      
+    <router-view
+      class="container"
+    />
+  </div>
+   
+  <div
+    class="show-confirm confirm"
+    name="scaleConfirm"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="show-select confirm"
+    name="scaleSelect"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      选择版本
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      <label
+        class="select-label"
+      >
+        
+          可选版本：
+          
+        <select>
+          <option
+            disabled="disabled"
+            selected="selected"
+            style="display: none;"
+            value="请选择"
+          >
+            请选择
+          </option>
+           
+        </select>
+         
+        <i
+          class="select-down icon-down"
+        />
+      </label>
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="alert"
+    name="scaleAlert"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-button"
+    >
+      确 定
+    </button>
+  </div>
+   
+  <div
+    class="mask"
+    style="background: rgba(0, 0, 0, 0.6); display: none;"
+  />
+   
+  <footer>
+    <p>
+      <a
+        href="#"
+      >
+        关于聚虹
+      </a>
+       |
+      
+      <a
+        href="#"
+      >
+        帮助
+      </a>
+    </p>
+     
+    <p>
+      Copyright @  2015上海聚虹光电科技有限公司  保留所有权利    沪ICP备13029784号
+    </p>
+     
+    <p>
+      上海聚虹光电科技有限公司官方网站 : 
+      <a
+        href="http://www.irisian.com"
+      >
+        http://www.irisian.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`page alertMsgShow 2`] = `
+<div>
+  <div
+    class="clearfix"
+  >
+    <!---->
+      
+    <router-view
+      class="container"
+    />
+  </div>
+   
+  <div
+    class="show-confirm confirm"
+    name="scaleConfirm"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="show-select confirm"
+    name="scaleSelect"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      选择版本
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      <label
+        class="select-label"
+      >
+        
+          可选版本：
+          
+        <select>
+          <option
+            disabled="disabled"
+            selected="selected"
+            style="display: none;"
+            value="请选择"
+          >
+            请选择
+          </option>
+           
+        </select>
+         
+        <i
+          class="select-down icon-down"
+        />
+      </label>
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="alert v-enter v-enter-active"
+    name="scaleAlert"
+    style=""
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        show
+      
+    </div>
+     
+    <button
+      class="confirm-button"
+    >
+      确 定
+    </button>
+  </div>
+   
+  <div
+    class="mask"
+    style="background: transparent;"
+  />
+   
+  <footer>
+    <p>
+      <a
+        href="#"
+      >
+        关于聚虹
+      </a>
+       |
+      
+      <a
+        href="#"
+      >
+        帮助
+      </a>
+    </p>
+     
+    <p>
+      Copyright @  2015上海聚虹光电科技有限公司  保留所有权利    沪ICP备13029784号
+    </p>
+     
+    <p>
+      上海聚虹光电科技有限公司官方网站 : 
+      <a
+        href="http://www.irisian.com"
+      >
+        http://www.irisian.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`page confirm button 1`] = `
+<div>
+  <div
+    class="clearfix"
+  >
+    <!---->
+      
+    <router-view
+      class="container"
+    />
+  </div>
+   
+  <div
+    class="show-confirm confirm v-leave v-leave-active"
+    name="scaleConfirm"
+    style=""
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="show-select confirm"
+    name="scaleSelect"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      选择版本
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      <label
+        class="select-label"
+      >
+        
+          可选版本：
+          
+        <select>
+          <option
+            disabled="disabled"
+            selected="selected"
+            style="display: none;"
+            value="请选择"
+          >
+            请选择
+          </option>
+           
+        </select>
+         
+        <i
+          class="select-down icon-down"
+        />
+      </label>
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="alert"
+    name="scaleAlert"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-button"
+    >
+      确 定
+    </button>
+  </div>
+   
+  <div
+    class="mask"
+    style="background: rgba(0, 0, 0, 0.6); display: none;"
+  />
+   
+  <footer>
+    <p>
+      <a
+        href="#"
+      >
+        关于聚虹
+      </a>
+       |
+      
+      <a
+        href="#"
+      >
+        帮助
+      </a>
+    </p>
+     
+    <p>
+      Copyright @  2015上海聚虹光电科技有限公司  保留所有权利    沪ICP备13029784号
+    </p>
+     
+    <p>
+      上海聚虹光电科技有限公司官方网站 : 
+      <a
+        href="http://www.irisian.com"
+      >
+        http://www.irisian.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`page confirm show 1`] = `
+<div>
+  <div
+    class="clearfix"
+  >
+    <!---->
+      
+    <router-view
+      class="container"
+    />
+  </div>
+   
+  <div
+    class="show-confirm confirm v-enter v-enter-active"
+    name="scaleConfirm"
+    style=""
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        confirm
+      
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="show-select confirm"
+    name="scaleSelect"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      选择版本
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      <label
+        class="select-label"
+      >
+        
+          可选版本：
+          
+        <select>
+          <option
+            disabled="disabled"
+            selected="selected"
+            style="display: none;"
+            value="请选择"
+          >
+            请选择
+          </option>
+           
+        </select>
+         
+        <i
+          class="select-down icon-down"
+        />
+      </label>
+    </div>
+     
+    <button
+      class="confirm-left confirm-button"
+    >
+      确 定
+    </button>
+     
+    <button
+      class="cancel-right confirm-button"
+    >
+      取 消
+    </button>
+  </div>
+   
+  <div
+    class="alert"
+    name="scaleAlert"
+    style="display: none;"
+  >
+    <h4
+      class="confirm-title"
+    >
+      提示
+      <i
+        class="icon-close"
+      />
+    </h4>
+     
+    <div
+      class="confirm-content"
+    >
+      
+        
+      
+    </div>
+     
+    <button
+      class="confirm-button"
+    >
+      确 定
+    </button>
+  </div>
+   
+  <div
+    class="mask"
+    style="background: rgba(0, 0, 0, 0.6);"
+  />
+   
+  <footer>
+    <p>
+      <a
+        href="#"
+      >
+        关于聚虹
+      </a>
+       |
+      
+      <a
+        href="#"
+      >
+        帮助
+      </a>
+    </p>
+     
+    <p>
+      Copyright @  2015上海聚虹光电科技有限公司  保留所有权利    沪ICP备13029784号
+    </p>
+     
+    <p>
+      上海聚虹光电科技有限公司官方网站 : 
+      <a
+        href="http://www.irisian.com"
+      >
+        http://www.irisian.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;

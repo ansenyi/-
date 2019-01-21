@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`person dept edit init and new dept and reInit list 1`] = `
+<div
+  class="person-dept-edit center"
+>
+  <div
+    class="new-dept one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      新建部门
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <label
+        for="name"
+      >
+        组别名称
+      
+        <input
+          autocomplete="off"
+          id="name"
+          placeholder="请输入新建部门名称"
+          type="text"
+        />
+      </label>
+       
+      <button
+        class="button"
+      >
+        新建部门
+      </button>
+    </div>
+  </div>
+   
+  <div
+    class="dept-list one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有部门
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+          <li
+            data-id="2"
+            data-index="1"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              b
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+          <li
+            data-id="3"
+            data-index="2"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              c
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      删除部门
+    </button>
+     
+    <button
+      class="button"
+    >
+      重命名
+    </button>
+  </div>
+</div>
+`;
+
+exports[`person dept edit init and new dept and reInit list 2`] = `
+<div
+  class="person-dept-edit center"
+>
+  <div
+    class="new-dept one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      新建部门
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <label
+        for="name"
+      >
+        组别名称
+      
+        <input
+          autocomplete="off"
+          id="name"
+          placeholder="请输入新建部门名称"
+          type="text"
+        />
+      </label>
+       
+      <button
+        class="button"
+      >
+        新建部门
+      </button>
+    </div>
+  </div>
+   
+  <div
+    class="dept-list one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有部门
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+            data-index="0"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              a
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+          <li
+            data-id="2"
+            data-index="1"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+                style="display: none;"
+              />
+               
+              <i
+                class="icon-down"
+                style=""
+              />
+              
+              b
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style=""
+            />
+          </li>
+          <li
+            data-id="3"
+            data-index="2"
+            data-level="1"
+          >
+            <p
+              class=""
+            >
+              <i
+                class="icon-right"
+              />
+               
+              <i
+                class="icon-down"
+                style="display: none;"
+              />
+              
+              c
+            
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+             
+            <ul
+              style="display: none;"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      删除部门
+    </button>
+     
+    <button
+      class="button"
+    >
+      重命名
+    </button>
+  </div>
+</div>
+`;

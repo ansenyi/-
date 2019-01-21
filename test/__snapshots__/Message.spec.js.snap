@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`message init 1`] = `
+<div
+  class="message"
+>
+  <div>
+    <div
+      class="clearfix"
+    >
+      <!---->
+       
+      <div
+        class="container center"
+      >
+        <div
+          class="message-list"
+        >
+          <h4>
+            新增注册人员（2）
+            <i
+              class="icon-down"
+            />
+          </h4>
+           
+          <table
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  姓名
+                </th>
+                 
+                <th>
+                  工号
+                </th>
+                 
+                <th>
+                  卡号
+                </th>
+                 
+                <th>
+                  查看
+                </th>
+              </tr>
+            </thead>
+             
+            <tbody>
+              <tr>
+                <td>
+                  a
+                </td>
+                 
+                <td>
+                  11
+                </td>
+                 
+                <td>
+                  111
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/person/setting/1"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  b
+                </td>
+                 
+                <td>
+                  22
+                </td>
+                 
+                <td>
+                  222
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/person/setting/2"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="message-list"
+        >
+          <h4>
+            未分配角色人员（2）
+            <i
+              class="icon-down"
+            />
+          </h4>
+           
+          <table
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  姓名
+                </th>
+                 
+                <th>
+                  工号
+                </th>
+                 
+                <th>
+                  卡号
+                </th>
+                 
+                <th>
+                  查看
+                </th>
+              </tr>
+            </thead>
+             
+            <tbody>
+              <tr>
+                <td>
+                  a
+                </td>
+                 
+                <td>
+                  11
+                </td>
+                 
+                <td>
+                  111
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/person/setting/1"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  b
+                </td>
+                 
+                <td>
+                  22
+                </td>
+                 
+                <td>
+                  222
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/person/setting/2"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="message-list"
+        >
+          <h4>
+            未添加角色设备（2）
+            <i
+              class="icon-down"
+            />
+          </h4>
+           
+          <table
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  设备编号
+                </th>
+                 
+                <th>
+                  设备名称
+                </th>
+                 
+                <th>
+                  查看
+                </th>
+              </tr>
+            </thead>
+             
+            <tbody>
+              <tr>
+                <td>
+                  无
+                </td>
+                 
+                <td>
+                  a
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="[object Object]"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  1
+                </td>
+                 
+                <td>
+                  b
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="[object Object]"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="message-list"
+        >
+          <h4>
+            上线的设备（2）
+            <i
+              class="icon-down"
+            />
+          </h4>
+           
+          <table
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  设备编号
+                </th>
+                 
+                <th>
+                  设备名称
+                </th>
+                 
+                <th>
+                  查看
+                </th>
+              </tr>
+            </thead>
+             
+            <tbody>
+              <tr>
+                <td>
+                  无
+                </td>
+                 
+                <td>
+                  a
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/device/setting/0"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  1
+                </td>
+                 
+                <td>
+                  b
+                </td>
+                 
+                <td>
+                  <router-link
+                    to="/device/setting/1"
+                  >
+                    <i
+                      class="icon-edit"
+                    />
+                  </router-link>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+         
+        <div
+          class="message-list"
+        >
+          <h4>
+            下线的设备（2）
+            <i
+              class="icon-down"
+            />
+          </h4>
+           
+          <table
+            cellspacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  设备编号
+                </th>
+                 
+                <th>
+                  设备名称
+                </th>
+              </tr>
+            </thead>
+             
+            <tbody>
+              <tr>
+                <td>
+                  无
+                </td>
+                 
+                <td>
+                  无
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  无
+                </td>
+                 
+                <td>
+                  无
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+       
+      <router-view
+        class="container"
+      />
+    </div>
+     
+    <div
+      class="show-confirm confirm"
+      style="display: none;"
+    >
+      <h4
+        class="confirm-title"
+      >
+        提示
+        <i
+          class="icon-close"
+        />
+      </h4>
+       
+      <div
+        class="confirm-content"
+      >
+        
+        
+      
+      </div>
+       
+      <button
+        class="confirm-left confirm-button"
+      >
+        确 定
+      </button>
+       
+      <button
+        class="cancel-right confirm-button"
+      >
+        取 消
+      </button>
+    </div>
+     
+    <div
+      class="show-select confirm"
+      style="display: none;"
+    >
+      <h4
+        class="confirm-title"
+      >
+        选择版本
+        <i
+          class="icon-close"
+        />
+      </h4>
+       
+      <div
+        class="confirm-content"
+      >
+        <label
+          class="select-label"
+        >
+          
+          可选版本：
+          
+          <select>
+            <option
+              disabled="disabled"
+              selected="selected"
+              style="display: none;"
+              value="请选择"
+            >
+              请选择
+            </option>
+             
+          </select>
+           
+          <i
+            class="select-down icon-down"
+          />
+        </label>
+      </div>
+       
+      <button
+        class="confirm-left confirm-button"
+      >
+        确 定
+      </button>
+       
+      <button
+        class="cancel-right confirm-button"
+      >
+        取 消
+      </button>
+    </div>
+     
+    <div
+      class="alert"
+      style="display: none;"
+    >
+      <h4
+        class="confirm-title"
+      >
+        提示
+        <i
+          class="icon-close"
+        />
+      </h4>
+       
+      <div
+        class="confirm-content"
+      >
+        
+        
+      
+      </div>
+       
+      <button
+        class="confirm-button"
+      >
+        确 定
+      </button>
+    </div>
+     
+    <div
+      class="mask"
+      style="background: rgba(0, 0, 0, 0.6); display: none;"
+    />
+     
+    <footer>
+      <p>
+        <a
+          href="#"
+        >
+          关于聚虹
+        </a>
+         |
+      
+        <a
+          href="#"
+        >
+          帮助
+        </a>
+      </p>
+       
+      <p>
+        Copyright @  2015上海聚虹光电科技有限公司  保留所有权利    沪ICP备13029784号
+      </p>
+       
+      <p>
+        上海聚虹光电科技有限公司官方网站 : 
+        <a
+          href="http://www.irisian.com"
+        >
+          http://www.irisian.com
+        </a>
+      </p>
+    </footer>
+  </div>
+</div>
+`;

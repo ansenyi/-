@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`role edit init and new dept and reInit list 1`] = `
+<div
+  class="role-edit center"
+>
+  <div
+    class="new-role one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      新建角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <label
+        for="name"
+      >
+        角色名称
+        
+        <input
+          autocomplete="off"
+          id="name"
+          placeholder="请输入新建角色名称"
+          type="text"
+        />
+      </label>
+       
+      <button
+        class="button"
+      >
+        新建角色
+      </button>
+    </div>
+  </div>
+   
+  <div
+    class="role-list one-column"
+  >
+    <h4
+      class="box-title"
+    >
+      已有角色
+    </h4>
+     
+    <div
+      class="box-content"
+    >
+      <div
+        class="my-bar"
+      >
+        <ul>
+          <li
+            data-id="1"
+          >
+            <p
+              class=""
+            >
+              a
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+          </li>
+          <li
+            data-id="2"
+          >
+            <p
+              class=""
+            >
+              b
+            </p>
+             
+            <input
+              autocomplete="off"
+              style="display: none;"
+              type="text"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      删除角色
+    </button>
+     
+    <button
+      class="button"
+    >
+      重命名
+    </button>
+  </div>
+</div>
+`;

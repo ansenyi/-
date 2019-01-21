@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`device argument save 1`] = `
+<div
+  class="device-argument center"
+>
+  <!---->
+   
+  <form
+    class="device-control"
+  >
+    <h4
+      class="form-title"
+    >
+      门禁控制
+    </h4>
+     
+    <label>
+      
+      通讯协议：
+      
+      <select>
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="0"
+        >
+          韦根 26
+        </option>
+         
+        <option
+          value="1"
+        >
+          韦根 34
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label
+      id="output"
+    >
+      
+      输出内容：
+      
+      <select>
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          工号
+        </option>
+         
+        <option
+          value="2"
+        >
+          卡号
+        </option>
+         
+        <option
+          value="0"
+        >
+          自定义
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+       
+      <input
+        disabled="disabled"
+        type="text"
+      />
+       
+      <input
+        autocomplete="off"
+        style="display: none;"
+        type="text"
+      />
+    </label>
+     
+    <label>
+      
+      比对方式：
+      
+      <select>
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="0"
+        >
+          虹膜对比
+        </option>
+         
+        <option
+          value="1"
+        >
+          卡与虹膜对比
+        </option>
+         
+        <option
+          value="2"
+        >
+          卡或虹膜对比
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label>
+      
+      门禁延时：
+      
+      <select>
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1000"
+        >
+          1
+        </option>
+        <option
+          value="3000"
+        >
+          3
+        </option>
+        <option
+          value="5000"
+        >
+          5
+        </option>
+        <option
+          value="10000"
+        >
+          10
+        </option>
+        <option
+          value="20000"
+        >
+          20
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label>
+      
+      防拆开关：
+      
+      <select
+        class="red"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          开
+        </option>
+         
+        <option
+          value="0"
+        >
+          关
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+  </form>
+   
+  <div
+    class="device-console"
+  >
+    <h4
+      class="console-title"
+    >
+      配置记录
+    </h4>
+     
+    <div
+      class="console-content"
+    >
+      <p>
+        <span>
+          设备：a，f
+通讯协议：韦根 34，输出内容：工号，比对方式：卡或虹膜对比，门禁延时：4，防拆开关：开
+        </span>
+         
+        <span
+          class="succeed"
+        >
+          成功
+        </span>
+      </p>
+      <p>
+        <span>
+          设备：c，e
+通讯协议：韦根 34，输出内容：工号，比对方式：卡或虹膜对比，门禁延时：4，防拆开关：开
+        </span>
+         
+        <span
+          class="failed"
+        >
+          未同步
+        </span>
+      </p>
+      <p>
+        <span>
+          设备：b，d
+通讯协议：韦根 34，输出内容：工号，比对方式：卡或虹膜对比，门禁延时：4，防拆开关：开
+        </span>
+         
+        <span
+          class="failed"
+        >
+          失败
+        </span>
+      </p>
+    </div>
+  </div>
+   
+  <div
+    class="button-container"
+  >
+    <button
+      class="button"
+    >
+      确认
+    </button>
+  </div>
+</div>
+`;

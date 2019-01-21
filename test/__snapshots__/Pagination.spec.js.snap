@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination Simple Cases set totalPages 5 1`] = `
+<div
+  class="pagination"
+>
+  <label
+    class="select-label"
+    for="page"
+  >
+    <select
+      class="select-size"
+      id="page"
+    >
+      <option
+        value="10"
+      >
+        每页10条
+      </option>
+       
+      <option
+        value="20"
+      >
+        每页20条
+      </option>
+       
+      <option
+        value="30"
+      >
+        每页30条
+      </option>
+    </select>
+     
+    <i
+      class="select-down icon-down"
+      id="first"
+    />
+  </label>
+   
+  <ul
+    class="page-list"
+  >
+    <li
+      class="prev"
+      style="display: none;"
+    >
+      <span>
+        <i
+          class="icon-prev"
+        />
+      </span>
+    </li>
+     
+    <li
+      class="first"
+    >
+      <span
+        class="active"
+      >
+        1
+      </span>
+    </li>
+     
+    <li
+      class="ellipsis"
+      style="display: none;"
+    >
+      <span>
+        ...
+      </span>
+    </li>
+     
+    <li>
+      <span
+        class=""
+      >
+        2
+      </span>
+    </li>
+    <li>
+      <span
+        class=""
+      >
+        3
+      </span>
+    </li>
+     
+    <li
+      class="ellipsis"
+    >
+      <span>
+        ...
+      </span>
+    </li>
+     
+    <li
+      class="last"
+    >
+      <span
+        class=""
+      >
+        5
+      </span>
+    </li>
+     
+    <li
+      class="next"
+    >
+      <span>
+        <i
+          class="icon-next"
+        />
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`pagination Simple Cases success 1`] = `
+<div
+  class="pagination"
+>
+  <label
+    class="select-label"
+    for="page"
+  >
+    <select
+      class="select-size"
+      id="page"
+    >
+      <option
+        value="10"
+      >
+        每页10条
+      </option>
+       
+      <option
+        value="20"
+      >
+        每页20条
+      </option>
+       
+      <option
+        value="30"
+      >
+        每页30条
+      </option>
+    </select>
+     
+    <i
+      class="select-down icon-down"
+      id="first"
+    />
+  </label>
+   
+  <ul
+    class="page-list"
+  >
+    <li
+      class="prev"
+    >
+      <span>
+        <i
+          class="icon-prev"
+        />
+      </span>
+    </li>
+     
+    <li
+      class="first"
+    >
+      <span
+        class=""
+      >
+        1
+      </span>
+    </li>
+     
+    <li
+      class="ellipsis"
+      style=""
+    >
+      <span>
+        ...
+      </span>
+    </li>
+     
+    <li>
+      <span
+        class=""
+      >
+        3
+      </span>
+    </li>
+    <li>
+      <span
+        class=""
+      >
+        4
+      </span>
+    </li>
+    <li>
+      <span
+        class="active"
+      >
+        5
+      </span>
+    </li>
+    <li>
+      <span
+        class=""
+      >
+        6
+      </span>
+    </li>
+    <li>
+      <span
+        class=""
+      >
+        7
+      </span>
+    </li>
+     
+    <li
+      class="ellipsis"
+    >
+      <span>
+        ...
+      </span>
+    </li>
+     
+    <li
+      class="last"
+    >
+      <span
+        class=""
+      >
+        100
+      </span>
+    </li>
+     
+    <li
+      class="next"
+    >
+      <span>
+        <i
+          class="icon-next"
+        />
+      </span>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,23 @@
+{
+  "plugins": ["transform-runtime"],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", { "targets": { "node": "current" }}]
+      ],
+      "plugins": ["transform-es2015-modules-commonjs", "istanbul"]
+    },
+    "production": {
+      "presets": [
+        ["env", { "modules": false }],
+        "stage-2"
+      ]
+    },
+    "development": {
+      "presets": [
+        ["env", { "modules": false }],
+        "stage-2"
+      ]
+    }
+  }
+}

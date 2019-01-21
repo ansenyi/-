@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tables set device table props 1`] = `
+<div
+  class="tables"
+>
+  <section
+    class="search"
+  >
+    <i
+      class="input-search icon-search"
+    />
+     
+    <input
+      autocomplete="off"
+      placeholder="按设备名称搜索"
+      type="text"
+    />
+     
+    <i
+      class="input-cancel icon-cancel"
+      style="display: none;"
+    />
+  </section>
+   
+  <table>
+    <caption
+      class="count"
+    />
+     
+    <thead>
+      <tr>
+        <th>
+          <span>
+            设备编号
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="deviceId"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="deviceId"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            设备名称
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="deviceName"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="deviceName"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            防拆开关
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="protectLock"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="protectLock"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            硬件版本号
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="hardwareVersion"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="hardwareVersion"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            连接状态
+          </span>
+           
+          <a>
+            <!---->
+          </a>
+           
+          <a>
+            <!---->
+          </a>
+        </th>
+        <th>
+          <span>
+            通讯地址
+          </span>
+           
+          <a>
+            <!---->
+          </a>
+           
+          <a>
+            <!---->
+          </a>
+        </th>
+        <th>
+          <span>
+            设备管理
+          </span>
+           
+          <a>
+            <!---->
+          </a>
+           
+          <a>
+            <!---->
+          </a>
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <tr
+        class="grey"
+      >
+        <td>
+          1
+        </td>
+        <td>
+          a
+        </td>
+        <td>
+          开
+        </td>
+        <td>
+          v1
+        </td>
+        <td>
+          未连接
+        </td>
+        <td>
+          123
+        </td>
+         
+        <td
+          class="control-disabled"
+        >
+          <span>
+            <i
+              class="icon-edit"
+            />
+          </span>
+           
+          <span>
+            <i
+              class="icon-remove"
+            />
+          </span>
+        </td>
+      </tr>
+      <tr
+        class="red"
+      >
+        <td>
+          2
+        </td>
+        <td>
+          Untitled
+        </td>
+        <td>
+          关
+        </td>
+        <td>
+          v1
+        </td>
+        <td>
+          已连接
+        </td>
+        <td>
+          456
+        </td>
+         
+        <td>
+          <router-link
+            to="/device/setting/2"
+          >
+            <i
+              class="icon-edit"
+            />
+          </router-link>
+           
+          <span>
+            <i
+              class="icon-remove"
+              data-id="2"
+            />
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+   
+  <!---->
+</div>
+`;
+
+exports[`tables set person table props 1`] = `
+<div
+  class="tables"
+>
+  <section
+    class="search"
+  >
+    <i
+      class="input-search icon-search"
+    />
+     
+    <input
+      autocomplete="off"
+      placeholder="按姓名搜索"
+      type="text"
+    />
+     
+    <i
+      class="input-cancel icon-cancel"
+      style="display: none;"
+    />
+  </section>
+   
+  <table>
+    <caption
+      class="count"
+    />
+     
+    <thead>
+      <tr>
+        <th>
+          <span>
+            姓名
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="userName"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="userName"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            工号
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="employeeId"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="employeeId"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            卡号
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="carNO"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="carNO"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            部门
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="orgEntity['orgName']"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="orgEntity['orgName']"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            角色
+          </span>
+           
+          <a>
+            <i
+              class="icon-asc"
+              data-direction="asc"
+              data-prop="roleEntity['roleName']"
+            />
+          </a>
+           
+          <a>
+            <i
+              class="icon-desc"
+              data-direction="desc"
+              data-prop="roleEntity['roleName']"
+            />
+          </a>
+        </th>
+        <th>
+          <span>
+            人员信息操作
+          </span>
+           
+          <a>
+            <!---->
+          </a>
+           
+          <a>
+            <!---->
+          </a>
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <tr
+        class=""
+      >
+        <!---->
+        <td>
+          a
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          111
+        </td>
+        <td>
+          营销部
+        </td>
+        <td>
+          未分配
+        </td>
+         
+        <td>
+          <router-link
+            to="/person/setting/1"
+          >
+            <i
+              class="icon-edit"
+            />
+          </router-link>
+           
+          <span>
+            <i
+              class="icon-remove"
+              data-id="1"
+            />
+          </span>
+        </td>
+      </tr>
+      <tr
+        class=""
+      >
+        <!---->
+        <td>
+          b
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          222
+        </td>
+        <td>
+          已连接
+        </td>
+        <td>
+          456
+        </td>
+         
+        <td>
+          <router-link
+            to="/person/setting/2"
+          >
+            <i
+              class="icon-edit"
+            />
+          </router-link>
+           
+          <span>
+            <i
+              class="icon-remove"
+              data-id="2"
+            />
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+   
+  <!---->
+</div>
+`;

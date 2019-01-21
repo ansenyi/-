@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`person setting init and save 1`] = `
+<div
+  class="person-setting"
+>
+  <form
+    class="form-container"
+  >
+    <h4
+      class="form-title"
+    >
+      人员信息
+    </h4>
+     
+    <label
+      for="name"
+    >
+      
+      姓名：
+      
+      <input
+        autocomplete="off"
+        id="name"
+        type="text"
+      />
+    </label>
+     
+    <label
+      for="number"
+    >
+      
+      工号：
+      
+      <input
+        autocomplete="off"
+        id="number"
+        type="text"
+      />
+    </label>
+     
+    <label
+      for="card"
+    >
+      
+      卡号：
+      
+      <input
+        autocomplete="off"
+        id="card"
+        type="text"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="dept"
+    >
+      
+      部门：
+      
+      <select
+        id="dept"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          a
+        </option>
+        <option
+          value="2"
+        >
+          b
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+        id="first"
+      />
+       
+      <select
+        id="second-dept"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          a
+        </option>
+        <option
+          value="2"
+        >
+          b
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+        id="second"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="role"
+    >
+      
+      角色：
+      
+      <select
+        id="role"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          a
+        </option>
+        <option
+          value="2"
+        >
+          b
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+  </form>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      保存
+    </button>
+     
+    <button
+      class="button"
+    >
+      返回
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`device setting init and controlCallBack 1`] = `
+<div
+  class="device-setting"
+>
+  <form
+    class="form-container"
+  >
+    <h4
+      class="form-title"
+    >
+      设备参数
+    </h4>
+     
+    <label>
+      
+      设备编号：
+      
+      <input
+        placeholder="a"
+        readonly="readonly"
+        type="text"
+      />
+    </label>
+     
+    <label>
+      
+      设备名称：
+      
+      <input
+        autocomplete="off"
+        type="text"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+    >
+      
+      通讯协议：
+      
+      <select>
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="0"
+        >
+          韦根 26
+        </option>
+         
+        <option
+          value="1"
+        >
+          韦根 34
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="out"
+      id="output"
+    >
+      
+      输出类型：
+      
+      <select
+        id="out"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          工号
+        </option>
+         
+        <option
+          value="2"
+        >
+          卡号
+        </option>
+         
+        <option
+          value="0"
+        >
+          自定义
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+       
+      <input
+        disabled="disabled"
+        type="text"
+      />
+       
+      <input
+        autocomplete="off"
+        style="display: none;"
+        type="text"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="check"
+    >
+      
+      比对方式：
+      
+      <select
+        id="check"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="0"
+        >
+          虹膜对比
+        </option>
+         
+        <option
+          value="1"
+        >
+          卡与虹膜对比
+        </option>
+         
+        <option
+          value="2"
+        >
+          卡或虹膜对比
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="delay"
+    >
+      
+      门禁延时：
+      
+      <select
+        id="delay"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1000"
+        >
+          1
+        </option>
+        <option
+          value="3000"
+        >
+          3
+        </option>
+        <option
+          value="5000"
+        >
+          5
+        </option>
+        <option
+          value="10000"
+        >
+          10
+        </option>
+        <option
+          value="20000"
+        >
+          20
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <label
+      class="select-label"
+      for="protectLock"
+    >
+      
+      防拆开关：
+      
+      <select
+        id="protectLock"
+      >
+        <option
+          disabled="disabled"
+          selected="selected"
+          style="display: none;"
+          value="请选择"
+        >
+          请选择
+        </option>
+         
+        <option
+          value="1"
+        >
+          开
+        </option>
+         
+        <option
+          value="0"
+        >
+          关
+        </option>
+      </select>
+       
+      <i
+        class="select-down icon-down"
+      />
+    </label>
+     
+    <div
+      class="save-back-button"
+    >
+      <button
+        class="button"
+      >
+        保存
+      </button>
+       
+      <button
+        class="button"
+      >
+        返回
+      </button>
+    </div>
+  </form>
+   
+  <div
+    class="buttons"
+  >
+    <button
+      class="button"
+    >
+      关机
+    </button>
+     
+    <button
+      class="button"
+    >
+      重启
+    </button>
+     
+    <button
+      class="button"
+    >
+      恢复出厂设置
+    </button>
+     
+    <button
+      class="button"
+    >
+      强制升级
+    </button>
+     
+    <button
+      class="button"
+    >
+      版本回退
+    </button>
+     
+    <button
+      class="button"
+    >
+      强制开门
+    </button>
+  </div>
+   
+  <div
+    class="console-container"
+  >
+    <h4
+      class="console-title"
+    >
+      操作记录
+    </h4>
+     
+    <div
+      class="console-content"
+    />
+  </div>
+</div>
+`;

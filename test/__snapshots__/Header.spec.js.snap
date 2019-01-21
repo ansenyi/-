@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header placeholder or menu menu 1`] = `
+<header>
+  <div
+    class="logo"
+  >
+    <router-link
+      to="/"
+    />
+  </div>
+    
+  <nav
+    id="menu"
+  >
+    <router-link
+      to="/"
+    >
+      主菜单
+    </router-link>
+     
+    <span>
+      
+    </span>
+     
+    <router-link
+      class="email"
+      to="/message"
+    />
+     
+    <router-link
+      class="email-red"
+      style="display: none;"
+      to="/message"
+    />
+     
+    <router-link
+      to="/upload"
+    >
+      上传软件
+    </router-link>
+     |
+    
+    <a
+      class="logout"
+      href="javascript:;"
+    >
+      退出
+    </a>
+     
+    <a
+      href=""
+    >
+      帮助
+    </a>
+  </nav>
+</header>
+`;
